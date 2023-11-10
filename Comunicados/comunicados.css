@@ -58,6 +58,7 @@ ul a:hover {
 
 article {
     margin-left: 25%;
+    min-height: 100vh;
     position: static;
     color: white;
     width: 75%;
