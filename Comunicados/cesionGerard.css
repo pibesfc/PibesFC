@@ -67,6 +67,7 @@ article {
 
 .article-content {
     margin-top: 13%;
+    text-align: center;
 }
 
 .article-content h1 {
@@ -83,7 +84,6 @@ article {
 }
 
 .article-content img {
-    margin-left: 3%;
     margin-top: 5%;
     width: 80%;
 }
