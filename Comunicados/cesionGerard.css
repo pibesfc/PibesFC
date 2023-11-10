@@ -60,7 +60,6 @@ article {
     margin-left: 25%;
     min-height: 100vh;
     position: static;
-    text-align: center;
     color: white;
     width: 75%;
     background: linear-gradient(60deg, #194772, #1d6679, #99416d, #b48828, #1d6679, #194772);
@@ -86,5 +85,5 @@ article {
 .article-content img {
     margin-left: 3%;
     margin-top: 5%;
-    width: 80%; /* Ajusta según sea necesario */
+    width: 80%;
 }
