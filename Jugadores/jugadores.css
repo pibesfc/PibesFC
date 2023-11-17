@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: auto;
+}
+
+nav {
+    width: 25%;
+    background-color: black;
+    position: fixed;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+nav img.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+article {
+    color: white;
+    width: 75%;
+    position: static;
+    margin-left: 25%;
+    background: linear-gradient(60deg, #143758, #164e5c, #793356, #8b691f, #164e5c, #143758);
+}
+
+/* Agrega estilos adicionales según sea necesario */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 154, 2);
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección de jugadores */
+.players-section {
+    margin-top: 7%;
+}
+
+.players-section h1 {
+    font-size: 250%;
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+
+.category-title {
+    font-size: 150%;
+    margin-bottom: 5px;
+    margin-left: 5%;
+}
+
+.category-title hr {
+    border: orange;
+    margin-right: 87%;
+    margin-left: 5%;
+    height: 2px;
+    background-color: orange;
+}
+
+.player-container {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.player-details {
+    display: block;
+    text-align: center;
+    margin-left: 3.5%;
+}
