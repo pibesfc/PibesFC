@@ -11,26 +11,50 @@ main {
 
 nav {
     width: 25%;
-    background-color: black;
+    height: 100vh;
+    background: linear-gradient(30deg, #ffbf39, #f066aa, #276eb0, #2ea4c3, #f066aa, #ffbf39);
     position: fixed;
-    padding: 15px;
-    box-sizing: border-box;
+    text-align: center;
 }
 
-nav img.logo {
+nav img {
     width: 100px;
     height: 100px;
     margin-top: 15px;
 }
 
-nav ul {
+nav h1 {
+    margin-bottom: 0;
+}
+
+nav p {
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 30%;
     list-style: none;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
 }
 
-nav li {
+ul li {
     margin-bottom: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+ul a:hover {
+    color: rgb(255, 154, 2);
 }
 
 article {
